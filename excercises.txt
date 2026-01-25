@@ -1,0 +1,59 @@
+
+📊 Ejercicios con Pandas
+🧩 Ejercicio 1
+Leer el archivo datos.csv y mostrar las primeras 5 filas.
+
+🧩 Ejercicio 2
+Mostrar solo los empleados mayores de 30 años.
+
+🧩 Ejercicio 3
+Calcular el salario promedio de todos los empleados.
+
+🧩 Ejercicio 4
+Mostrar el salario promedio por departamento.
+
+🧩 Ejercicio 5
+Mostrar el salario máximo y mínimo por departamento.
+
+🧩 Ejercicio 6
+Calcular la edad promedio por departamento.
+
+🧩 Ejercicio 7
+Mostrar cuántos empleados hay en cada departamento.
+
+🧩 Ejercicio 8
+Mostrar los empleados con salario mayor a 4500.
+
+🧩 Ejercicio 9
+Calcular el salario total pagado por departamento.
+
+🧩 Ejercicio 10
+Mostrar el empleado con mayor salario.
+
+🧩 Ejercicio 11
+Mostrar el departamento con mayor salario promedio.
+
+🧩 Ejercicio 12
+Mostrar los empleados con más de 5 años de antigüedad.
+
+🧩 Ejercicio 13
+Crear una columna categoria_salario:
+
+"Alto" si salario > 4500
+
+"Medio" si salario entre 3500 y 4500
+
+"Bajo" si salario < 3500
+
+🧩 Ejercicio 14
+Ordenar los empleados por salario de mayor a menor.
+
+🧩 Ejercicio 15
+Crear una columna bono:
+
+10% del salario si antigüedad > 5
+
+5% en caso contrario
+
+🧩 Ejercicio 16 (bonus)
+Calcular el salario promedio solo de IT y Ventas
