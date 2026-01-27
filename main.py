@@ -65,13 +65,18 @@ def main():
     print(data_frame.sort_values(by= "salario"))
 
     #15- Bono por antiguedad
-    def bono (antiguedad,salario):
-        if antiguedad >5:
-            return salario * 0.1
-        return salario * 0.05
-    
-    data_frame["bono"]= data_frame["antiguedad"],data_frame["salario"].apply(bono)
+    data_frame["bono"]= (
+        data_frame["salario"] *
+        data_frame["antiguedad"].apply(
+            lambda x: 0.1 if x > 5 else 0.05
+        )
+    )
 
-    print(data_frame)
+    #16
+    filtrado= data_frame[
+        (data_frame["departamento"]== "IT") | 
+        (data_frame["departamento"] == "Ventas")
+    ]
+    print(filtrado["salario"].mean())
 
 main()
