@@ -26,7 +26,7 @@ data= pd.read_csv("titanic.csv")
 
 
 # Limpieza de columnas
-data["Survived"] = data["Survived"].replace({1:"True",0:"False"})
+data["Survived"] = data["Survived"].astype(bool)
 
 data.rename(columns={"Pclass":"Person_class"},inplace=True)
 
